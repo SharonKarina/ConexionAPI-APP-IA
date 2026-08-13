@@ -21,5 +21,5 @@ def verificar_configuracion():
             print("🌐 Conexión a internet: OK (Google es alcanzable).")
     except Exception as e:
         print(f"⚠️ Error de conexión: {e}")
-    if __name__ == "__main__":
-        verificar_configuracion()
+if __name__ == "__main__":
+    verificar_configuracion()
